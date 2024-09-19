@@ -8,3 +8,7 @@ const fun1 = () => {
 const fun2 = () =>{
     console.log("Function 2 executed");
 }
+const fun3 = () =>{
+    console.log("Function 3 executed");
+    fun4();
+}
